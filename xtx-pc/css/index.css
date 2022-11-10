@@ -1,0 +1,224 @@
+/* 主页的样式表 */
+.banner {
+    height: 500px;
+    background-color: #f5f5f5;
+}
+.banner .wrapper {
+    position: relative;
+    width: 1240px;
+    height: 500px;
+    background-color: yellow;
+}
+.banner .aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 500px;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+.banner .aside li {
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+}
+.banner .aside li a {
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 50px;
+    padding-left: 36px;
+    color: #fff;
+}
+.banner .aside li a:hover {
+    background-color: #27ba9b;
+}
+.banner .aside li a span {
+    padding-left: 15px;
+    font-size: 14px;
+}
+.banner .aside li a::after {
+    position: absolute;
+    top: 19px;
+    right: 19px;
+    content: '';
+    width: 6px;
+    height: 11px;
+    background-image: url(../images/sprites.png);
+    background-position: -80px -110px;
+}
+.banner .prev {
+    position: absolute;
+    top: 228px;
+    left: 260px;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 50%;
+    background-image: url(../images/sprites.png);
+    background-position: 14px -60px;;
+}
+.banner .next {
+    position: absolute;
+    top: 228px;
+    right: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 50%;
+    background-image: url(../images/sprites.png);
+    background-position: -23px -60px;
+}
+.banner ol {
+    position: absolute;
+    left: 670px;
+    bottom: 30px;
+    height: 10px;
+    /* background-color: green; */
+}
+.banner ol li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+    background-color: rgb(255,255,255,0.43);
+}
+.banner ol li:hover {
+    background-color: #fff;
+}
+/* 新鲜好物 */
+.goods {
+    height: 110px;
+    line-height: 110px;
+}
+.goods h2 {
+    float: left;
+    height: 110px;
+    font-size: 29px;
+    color: #333;
+}
+.goods h2 span {
+    font-size: 16px;
+    margin-left: 34px;
+    color: #999;
+}
+.goods a {
+    float: right;
+    color: #999;
+}
+.goods a::after {
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 13px;
+    margin-left: 13px;
+    /* background-color: green; */
+    background-image: url(../images/sprites.png);
+    background-position: 0 -110px;
+    vertical-align: middle;
+}
+/* 新品 */
+.xinpin {
+    /* background-color: #27ba9b; */
+    /* height: 405px; */
+}
+.xinpin li {
+    position: relative;
+    float: left;
+    width: 304px;
+    height: 405px;
+    margin-right: 8px;
+    text-align: center;
+    background-color: #f0f9f4;
+    /* background-color: yellow; */
+}
+.xinpin li:last-child {
+    margin-right: 0;
+}
+.xinpin li a{
+    display: block;
+    width: 304px;
+    height: 305px;
+}
+.xinpin li img {
+    width: 304px;
+    height: 305px;
+}
+.xinpin li h2 {
+    margin-top: 22px;
+    font-size: 20px;
+    color: #333;
+}
+.xinpin li p {
+    font-size: 23px;
+    color: #9a2e1f;
+}
+.xinpin li b {
+    position: absolute;
+    left: 17px;
+    top: 17px;
+    width: 28px;
+    height: 51px;
+    line-height: 25px;
+    font-size: 18px;
+    border: 1px solid #27ba9b;
+    color: #27ba9b;
+    border-radius: 2px 3px;
+}
+/* 生鲜 */
+.fresh .hd {
+    height: 95px;
+}
+.fresh .hd h2 {
+    float: left;
+    height: 95px;
+    line-height: 95px;
+    font-size: 29px;
+    font-weight: 400;
+    color: #333;
+}
+.fresh .hd .more {
+    float: right;
+    height: 95px;
+    line-height: 95px;
+    margin-left: 65px;
+    color: #999;
+}
+.fresh .hd .more::after {
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 13px;
+    margin-left: 13px;
+    /* background-color: green; */
+    background-image: url(../images/sprites.png);
+    background-position: 0 -110px;
+    vertical-align: middle;
+}
+.fresh .hd ul li {
+    float: right;
+    height: 95px;
+    line-height: 95px;
+}
+.fresh .hd ul li a{
+    height: 20px;
+    margin: 0 20px;
+    color: #333;
+    
+}
+.fresh .hd ul li a:hover {
+    background-color: #27ba9b;
+}
+/* 下半部分 */
+.fresh .bd {
+    background-color: yellow;
+}
+.fresh .bd .lf {
+    width: 242px;
+    height: 617px;
+    background-image: url(../uploads/fresh_goods_cover.png);
+    background-size: cover;
+    background-color: green;
+}
