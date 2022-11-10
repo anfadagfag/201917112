@@ -1,0 +1,89 @@
+header {
+    position: sticky;
+    top: 0;
+}
+header div {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    background-color: red;
+}
+header div:nth-child(1) {
+    width: 20%;
+    text-align: right;
+}
+header div:nth-child(1) img {
+    height: 45px;
+    vertical-align: middle;
+    
+}
+header div:nth-child(2) {
+    width: 50%;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
+header div:nth-child(3) {
+    width: 30%;
+}
+header div:nth-child(3) a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.first_section img {
+    width: 100%;
+}
+.second_section {
+    height: 30px;
+}
+.second_section div {
+    float: left;
+}
+.second_section div:nth-child(1) {
+    width: 20%;
+    text-align: center;
+}
+.second_section div:nth-child(1) img {
+    height: 25px;
+}
+.second_section div:nth-child(2) {
+    width: 80%;
+    font-size: 12px;
+    line-height: 30px;
+    color: gray;
+}
+/* 主内容区域 */
+.content {
+    background-image: url(../images/bt_bg.png);
+    background-size: contain;
+}
+.content div {
+    display: table;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+.content div a {
+    display: table-cell;
+    width: 33%;
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.content div a img {
+    width: 30px;
+}
+.third_section img{
+    width: 100%;
+    margin-bottom: -4px;
+}
+.forth_section {
+    width: 100%;
+    margin-bottom: 20px;
+}
+footer a:first-child {
+    color: red;
+}

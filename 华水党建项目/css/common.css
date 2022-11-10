@@ -1,0 +1,26 @@
+footer {
+    display: table;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 66px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 5px;
+    background-image: url(../images/底部bg.png);
+}
+footer a {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: gray;
+}
+footer a:nth-child(1) {
+    width: 33%;
+}
+footer a:nth-child(2) {
+    width: 33%;
+}
+footer a:nth-child(3) {
+    width: 34%;
+}
